@@ -6,7 +6,7 @@ public class Atv2_prog03 {
         Scanner sc = new Scanner(System.in);
         int num1 = 0;
 
-        System.out.println("\n=== Digite o valor a ser calculado o valor fatorial: ===");
+        System.out.println("\n=== Digite o número a ser calculado o valor fatorial: ===");
         num1 = sc.nextInt();
 
         System.out.print("\n=== " + num1 + "! = ");
