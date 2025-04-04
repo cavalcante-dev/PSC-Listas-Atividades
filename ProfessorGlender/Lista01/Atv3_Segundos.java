@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
 public class Atv3_Segundos {
-    
-    @SuppressWarnings("resource")
     public static void main(String[] args) {
         
         Scanner scan = new Scanner(System.in); 
