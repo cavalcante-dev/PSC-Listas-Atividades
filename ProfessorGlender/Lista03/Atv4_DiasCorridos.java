@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Atv4_DiasCorridos {
     public static void main(String[] args) {
         
+        //Esse código leva em consideração que todos os meses possuem 30 dias.
+
         Scanner sc = new Scanner(System.in); 
         int dia1, dia2, mes1, mes2, ano1, ano2;
 
@@ -25,7 +27,7 @@ public class Atv4_DiasCorridos {
 
         //Condições de erro para as datas sendo digitadas erroneamente (dia, mês ou ano), se as datas são iguais ou se fevereiro tiver +29 dias. 
         
-        if (ano1 > ano2 || dia1 > 30 || mes1 > 12 || dia2 > 30 || mes2 > 12 || dia1 < dia2 && ano1 == ano2 && mes1 == mes2 || mes1 < mes2 && ano1 == ano2 && mes1 == mes2) {
+        if (ano1 > ano2 || dia1 > 30 || mes1 > 12 || dia2 > 30 || mes2 > 12) {
             boolean erro = true;
             while (erro == true) {    
                 System.out.println("\n=== Dado incorretos - Tente Novamente ==");
@@ -82,22 +84,37 @@ public class Atv4_DiasCorridos {
         System.out.println("\n=== DATA 01: " + dia1 + "/" + mes1 + "/" + ano1 + " ===");
         System.out.println("=== DATA 02: " + dia2 + "/" + mes2 + "/" + ano2 + " ===\n");
 
-        //soma de dias do mês que vem primeiro, considerando se o ano inserido é bissexto;
+        //soma de dias dos meses que vem primeiro, considerando se o ano inserido é bissexto;
   
-        int diasAno, diasMes, diasRestantes1 = 0, diasRestantes2 = 0;
+        int diasRestantes1 = 0, diasRestantes2 = 0, extraBissexto = 0;
 
-        if (mes1 < 2) {
-            diasRestantes1 = 30 - dia1 + 1;
-            System.out.println("Dias Restantes: " + diasRestantes1);
-        } else if (mes1 >= 2) {
-            if (ano1 %4 == 0 && ano1 %100 != 0 || ano1 %400 == 0) {
-                diasRestantes1 = 29 + (mes1 * 30) + 1;
-                System.out.println("Dias Restantes: " + diasRestantes1);
-            } else {
-                diasRestantes1 = 28 + (mes1 * 30) + 1;
-                System.out.println("Dias Restantes: " + diasRestantes1);
-            }
+        if (ano1 %4 == 0 && ano1 %100 != 0 || ano1 %400 == 0) {
+            extraBissexto = 1;
         }
+
+        if (mes1 == 1) {
+            diasRestantes1 = (30 - dia1 + 1) + (28 + extraBissexto) + 300;
+        } else if (mes1 == 2) {
+            diasRestantes1 = (28 + extraBissexto + 1) + 300;
+        } else if (mes1 > 2) {
+            diasRestantes1 = (30 - dia1 + 1) + (12 - mes1) * 30;
+        }
+        
+        System.out.println("Dias da Data 1: " + diasRestantes1);
+        
+        //soma de dias dos meses que vem por ultimo, considerando se o ano inserido é bissexto;
+
+        if (ano2 %4 == 0 && ano2 %100 != 0 || ano2 %400 == 0) {
+            extraBissexto = 1;
+        }
+
+        if (mes2 <= 2) {
+            diasRestantes2 = 30 * (mes2 - 1) + dia2;
+        } else if (mes1 >= 2) {
+            diasRestantes2 = 30 * (mes2 - 2) + dia2 + (28 + extraBissexto);
+        } 
+
+        System.out.println("Dias da Data 2: " + diasRestantes2);
  
         //soma de dias dos anos restantes entre Data 01 e Data 02;
 
@@ -109,6 +126,9 @@ public class Atv4_DiasCorridos {
         System.out.println(diasEntre);
 
         // calculo de anos bissextos entre Data 1 e Data 2;
+
+        ano1--;
+        ano2--;
 
         while (ano1 != ano2) {
 
@@ -123,9 +143,11 @@ public class Atv4_DiasCorridos {
 
         }
 
-        //adicionar um -1 a soma final referente ao ano inicial. 
-
         System.out.println(diasEntre);
+
+        int diasFinal = diasEntre + diasRestantes1 + diasRestantes2;  
+
+        System.out.println(diasFinal);
 
     }
 }
