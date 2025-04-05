@@ -148,5 +148,7 @@ public class Atv4_DiasCorridos {
 
         System.out.println("=== O total de dias entre as datas é de " + diasFinal + " dias. ===\n");
 
+        sc.close();
+
     }
 }
