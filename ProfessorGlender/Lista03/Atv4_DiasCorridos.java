@@ -100,7 +100,7 @@ public class Atv4_DiasCorridos {
             diasRestantes1 = (30 - dia1 + 1) + (12 - mes1) * 30;
         }
         
-        System.out.println("Dias da Data 1: " + diasRestantes1);
+        //System.out.println("Dias da Data 1: " + diasRestantes1);
         
         //soma de dias dos meses que vem por ultimo, considerando se o ano inserido é bissexto;
 
@@ -114,40 +114,39 @@ public class Atv4_DiasCorridos {
             diasRestantes2 = 30 * (mes2 - 2) + dia2 + (28 + extraBissexto);
         } 
 
-        System.out.println("Dias da Data 2: " + diasRestantes2);
+        //System.out.println("Dias da Data 2: " + diasRestantes2);
  
         //soma de dias dos anos restantes entre Data 01 e Data 02;
 
+        int diasAno1e2 = diasRestantes1 + diasRestantes2;
         int anosTotais = ano2 - ano1;
-        int diasEntre = anosTotais * 365;
+        int diasEntre = (anosTotais * ((11 * 30) + 28)) - diasAno1e2;
 
-        System.out.println(anosTotais);
+        //System.out.println(anosTotais);
 
-        System.out.println(diasEntre);
+        //System.out.println(diasEntre);
 
         // calculo de anos bissextos entre Data 1 e Data 2;
-
-        ano1--;
-        ano2--;
 
         while (ano1 != ano2) {
 
             if (ano1 %4 == 0 && ano1 %100 != 0 || ano1 %400 == 0) {
-                System.out.println(ano1 + " é bissexto.");
+                //System.out.println(ano1 + " é bissexto.");
                 diasEntre++;  
                 ano1++;
             } else {
-                System.out.println(ano1 + " não é bissexto.");
+                //System.out.println(ano1 + " não é bissexto.");
                 ano1++;
             }
 
         }
 
-        System.out.println(diasEntre);
+        //System.out.println(diasEntre + " + " + diasRestantes1 + " + " + diasRestantes2);
+        //System.out.println(diasEntre);
 
-        int diasFinal = diasEntre + diasRestantes1 + diasRestantes2;  
+        int diasFinal = diasEntre + diasAno1e2;  
 
-        System.out.println(diasFinal);
+        System.out.println("=== O total de dias entre as datas é de " + diasFinal + " dias. ===\n");
 
     }
 }
