@@ -119,6 +119,8 @@ public class Atv6_Pesquisa {
                            "\n=== Maior idade inserida: " + maiorIdade + 
                            "\n=== Menor idade inserida: " + menorIdade + 
                            "\n=== Quantida de mulheres loiras e de olhos verdes entre 18 e 35 anos: " + loiras + " ===\n");
+
+        sc.close();
         
     }
 }
