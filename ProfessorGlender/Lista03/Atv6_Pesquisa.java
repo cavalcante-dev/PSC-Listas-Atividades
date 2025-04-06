@@ -6,7 +6,7 @@ public class Atv6_Pesquisa {
     public static void main(String[] args) {
      
         Scanner sc = new Scanner(System.in);
-        int sexo, corOlhos, corCabelos, idade = 0;
+        int sexo, corOlhos, corCabelos, idade;
         int maiorIdade = 0, menorIdade = 1500;
         int loiras = 0;
         boolean erro = true, condicao = false;
