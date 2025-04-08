@@ -29,5 +29,7 @@ public class Atv2_SenhaNome {
 
         System.out.println("\n====== Seja bem-vindo! ======\n");
 
+        sc.close();
+
     }
 }
