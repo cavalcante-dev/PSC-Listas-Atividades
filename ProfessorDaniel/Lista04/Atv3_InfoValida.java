@@ -109,9 +109,11 @@ public class Atv3_InfoValida {
 
         System.out.println("\n=== Olá! " + nome + " ===" + 
                             "\n> IDADE: " + idade + 
-                            "\n> SALARIO: " + sexo + 
+                            "\n> SALARIO: " + salario + 
                             "\n> SEXO: " + sexo + 
                             "\n> ESTADO CIVIL: " + estadoCivil + "\n");
 
+        sc.close();
+        
     }
 }
