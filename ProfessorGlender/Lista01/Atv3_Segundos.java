@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Atv3_Segundos {
     public static void main(String[] args) {
         
-        Scanner scan = new Scanner(System.in); 
+        Scanner sc = new Scanner(System.in); 
         int bissexto, anos, diasFinal, anosDias, bissextoDias, segundosAno;
 
         System.out.println("Digite uma quantidade de anos para o calculo dos segundos: ");
-        anos = scan.nextInt();
+        anos = sc.nextInt();
 
         // Linhas de código para se considerar anos bissextos. 
         anosDias = anos * 365;
@@ -23,7 +23,7 @@ public class Atv3_Segundos {
 
         System.out.println("Exitem " + diasFinal + " dias e " + segundosAno + " segundos em " + anos + " anos." );
 
-        scan.close();
+        sc.close();
 
     }
 
