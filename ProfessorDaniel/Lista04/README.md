@@ -8,11 +8,15 @@ Aqui você encontrará desde códigos simples até desafios mais complexos que m
 
 ---
 
-📚 Aprendizados Chave
+## 📚 Aprendizados Chave
 Durante esses exercícios, pratiquei:
+
 ✅ Controle de fluxo com for
+
 ✅ Uso de loops aninhados para padrões
+
 ✅ Manipulação de índices e variáveis acumuladoras
+
 ✅ Lógica para resolver problemas matemático
 
 ## 📌 O Que Você Vai Encontrar Aqui
