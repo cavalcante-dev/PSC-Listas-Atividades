@@ -26,5 +26,7 @@ public class Atv10_InteirosEntre {
             System.out.print(i + " ");
         }
         
+        sc.close();
+
     }   
 }
