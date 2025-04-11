@@ -40,6 +40,8 @@ Durante esses exercícios, pratiquei:
    ```bash
    git clone https://github.com/seu-usuario/for-java-exercicios.git
 
+---
+
 ## 💡 Nota para Colegas Estudantes
 Tente resolver sozinho primeiro! Minhas soluções são apenas uma referência.
 
