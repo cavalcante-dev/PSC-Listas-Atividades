@@ -1,7 +1,7 @@
 # 🚀 Exercícios de Java: Minha Jornada com a Estrutura `for`
 
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-yellow)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorDaniel/Lista04)
+[![Concluída](https://img.shields.io/badge/Concluída-brightgreen)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorDaniel/Lista04)
 
 Olá! 👋 Adicionando mais uma lista do Professor Daniel a este repositório contendo **minhas soluções** para exercícios práticos sobre a estrutura `for` em Java. 
 Aqui você encontrará desde códigos simples até desafios mais complexos que me ajudaram a entender repetições!
@@ -53,4 +53,5 @@ Sinta-se à vontade para:
 ---
 
 Feito com ☕ por cavalcante-dev - Estudante de Programação em constante evolução!
+
 📫 Contato: leandrocavalcante2504@gmail.com
