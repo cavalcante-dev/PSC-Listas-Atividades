@@ -40,13 +40,15 @@ Durante esses exercícios, pratiquei:
    ```bash
    git clone https://github.com/seu-usuario/for-java-exercicios.git
 
-💡 Nota para Colegas Estudantes
+## 💡 Nota para Colegas Estudantes
 Tente resolver sozinho primeiro! Minhas soluções são apenas uma referência.
 
 Sinta-se à vontade para:
 
 🔄 Sugerir melhorias nos códigos
 🐛 Reportar erros ou otimizações
+
+---
 
 Feito com ☕ por cavalcante-dev - Estudante de Programação em constante evolução!
 📫 Contato: leandrocavalcante2504@gmail.com
