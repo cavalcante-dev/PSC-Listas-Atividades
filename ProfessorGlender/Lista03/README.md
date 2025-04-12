@@ -3,7 +3,7 @@
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](LICENSE)
 [![Concluída](https://img.shields.io/badge/Concluída-brightgreen)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista03)
 
-Olá! 👋 Adicionando mais uma lista do Professor Daniel a este repositório contendo **minhas soluções** para exercícios práticos sobre a estrutura `for` em Java. 
+Olá! 👋 Adicionando mais uma lista do Professor Glender a este repositório contendo **minhas soluções** para exercícios práticos sobre a estrutura `for` em Java. 
 Aqui você encontrará desde códigos simples até desafios mais complexos que me ajudaram a entender repetições!
 
 ---
