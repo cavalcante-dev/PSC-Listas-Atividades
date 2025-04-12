@@ -15,7 +15,7 @@ public class Atv4_Habitantes {
         "\n> População País A = " + populacao1 +
         "\n> População País B = " + populacao2);
 
-        for (int contador = 0; contador < populacao2;) {
+        for (int contador = 0; contador <= populacao2;) {
             populacao1 = populacao1 + (populacao1 * taxaAnual1);
             populacao2 = populacao2 + (populacao2 * taxaAnual2);
             int atual = (int)populacao1;

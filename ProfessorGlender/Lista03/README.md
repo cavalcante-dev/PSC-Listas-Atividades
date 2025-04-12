@@ -1,7 +1,7 @@
 # 🚀 Exercícios de Java: Minha Jornada com a Estrutura `for`
 
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-green.svg)](LICENSE)
-[![Concluída](https://img.shields.io/badge/Concluída-brightgreen)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorDaniel/Lista04)
+[![Concluída](https://img.shields.io/badge/Concluída-brightgreen)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista03)
 
 Olá! 👋 Adicionando mais uma lista do Professor Daniel a este repositório contendo **minhas soluções** para exercícios práticos sobre a estrutura `for` em Java. 
 Aqui você encontrará desde códigos simples até desafios mais complexos que me ajudaram a entender repetições!
@@ -23,18 +23,15 @@ Durante esses exercícios, pratiquei:
 
 ### **Atividades Resolvidas**  
 🔹 **Básico:**  
-- [X] `Atv1_NotaInvalida.java` - Valida um número inserido pelo usuario.   
-- [X] `Atv2_SenhaNome.java` - Valida uma senha inserida pelo usuario. 
-- [X] `Atv4_Habitantes.java` - Calcula a quantidade de anos necessario para população A alcançar população B.  
-- [X] `Atv6_1a20.java` - Mostra em uma linha os números de 1 a 20  
-- [X] `Atv8_Media.java` - Calcula a soma e a media de 5 números diferentes.  
-- [X] `Atv9_Impar1a50;java` - Retorna todos os numeros impares de 1 a 50.
-- [X] `Atv10_InteirosEntre.java` - Retorna os numeros inteiros entre os intervalos de numeros entre valores inseridos pelo usuario.
+- [X] `Atv1_Multiplos.java` - Retorna quantos são os múltiplos de 2, 3 e 5 entre 1 e 1000.
+- [X] `Atv2_prog03.java` - Calcula o fatorial de um valor inteiro. 
+- [X] `Atv3_Contador.java` - Retorna a contagem de 233 a 456 contando de 3 em 3 quando estiver entre 300 e 400 e de 5 em 5 quanto não estiver.
+- [X] `Atv5_CalculoArt.java` - Calcula uma expressão aritimetica com valores informador pelo usuario.
 
 🔹 **Intermediário:**  
-- [X] `Atv3_InfoValida.java` - Valida uma serie de informações informadas pelo usuario.  
-- [X] `Atv5_HabitantesII.java` - Calcula a quantidade de anos necssario para a população A alcançar a população B, com dados inseridos pelo usuario.  
-- [X] `Atv7_NumMaior.java` - Mostra o maior numero entre 5 numeros digitados pelo usuario.  
+- [X] `Atv4_DiasCorridos.java` - Calcula a quantidade de dias entre data 1 e data 2, considerando que todos os meses possuem 30 dias. 
+- [X] `Atv6_Pesquisa.java` - Coleta informações sobre habitantes de uma determinada população e escreve a maior idade, a menor idade e a quantidade de pessoas com determinada caracteristica.  
+- [X] `Atv7_DoseModao.java` - Recebe o valor de uma comanda e a cada nova dose aumenta o valor da conta e recalcula os 10% do garçom.
 
 ---
 
@@ -42,7 +39,7 @@ Durante esses exercícios, pratiquei:
 
 1. **Clone o repositório:**  
    ```bash
-   git clone https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorDaniel/Lista04
+   git clone https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista03
 
 ---
 
