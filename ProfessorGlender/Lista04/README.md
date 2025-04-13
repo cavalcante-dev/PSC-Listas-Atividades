@@ -1,7 +1,7 @@
 # 📚 Atividades com Arrays e Matrizes em Java
 
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Em%Andamento-yellow)](https://github.com/seu-usuario/arrays-java-atividades)
+[![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista04)
 
 👋 Olá! Sou estudante de programação e este repositório contém **minhas soluções** para a Lista 04 de Vetores e Matrizes da disciplina de Programação de Soluções Computacionais.  
 Todos os códigos foram desenvolvidos por mim como parte do meu aprendizado prático em Java! 🚀
