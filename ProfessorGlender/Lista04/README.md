@@ -15,7 +15,7 @@ Todos os códigos foram desenvolvidos por mim como parte do meu aprendizado prá
 ## 📋 Lista de Atividades Concluídas
 
 ### **Exercício 1 - Intercalação de Vetores**  
-- [ ] `Atv1_IntercalacaoVetores.java`  
+- [ ] `Atv1_2Vetores.java`  
 Combina dois vetores num terceiro vetor com elementos intercalados  
 
 ### **Exercício 2 - Separador Positivos/Negativos**  
@@ -23,7 +23,7 @@ Combina dois vetores num terceiro vetor com elementos intercalados
 Divide um vetor em dois: um com valores positivos e outro com negativos  
 
 ### **Exercício 3 - Números Primos em Vetor**  
-- [ ] `Atv3_PrimosNoVetor.java`  
+- [ ] `Atv3_PrimosVetor.java`  
 Identifica números primos em um vetor e mostra suas posições  
 
 ### **Exercício 4 - Corretor de Provas**  
