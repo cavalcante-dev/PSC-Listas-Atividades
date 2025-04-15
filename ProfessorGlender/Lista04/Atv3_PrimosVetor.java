@@ -55,5 +55,7 @@ public class Atv3_PrimosVetor {
 
         System.out.println("\n-------------------------------------------\n");
 
+        sc.close();
+
     }
 } 
