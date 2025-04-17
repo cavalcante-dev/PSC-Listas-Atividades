@@ -15,19 +15,19 @@ Todos os códigos foram desenvolvidos por mim como parte do meu aprendizado prá
 ## 📋 Lista de Atividades Concluídas
 
 ### **Exercício 1 - Intercalação de Vetores**  
-- [ ] `Atv1_2Vetores.java`  
+- [X] `Atv1_2Vetores.java`  
 Combina dois vetores num terceiro vetor com elementos intercalados  
 
 ### **Exercício 2 - Separador Positivos/Negativos**  
-- [ ] `Atv2_SeparadorNumeros.java`  
+- [X] `Atv2_SeparadorNumeros.java`  
 Divide um vetor em dois: um com valores positivos e outro com negativos  
 
 ### **Exercício 3 - Números Primos em Vetor**  
-- [ ] `Atv3_PrimosVetor.java`  
+- [X] `Atv3_PrimosVetor.java`  
 Identifica números primos em um vetor e mostra suas posições  
 
 ### **Exercício 4 - Corretor de Provas**  
-- [ ] `Atv4_CorretorProvas.java`  
+- [X] `Atv4_CorretorProvas.java`  
 Calcula notas de alunos e porcentagem de aprovação com base em gabarito  
 
 ### **Exercício 5 - Temperaturas Anuais**  
