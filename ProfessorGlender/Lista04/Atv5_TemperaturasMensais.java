@@ -41,5 +41,7 @@ public class Atv5_TemperaturasMensais {
         
         System.out.println("\n===========================================================\n");
 
+        sc.close();
+
     }
 }

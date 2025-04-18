@@ -31,7 +31,7 @@ Identifica números primos em um vetor e mostra suas posições
 Calcula notas de alunos e porcentagem de aprovação com base em gabarito  
 
 ### **Exercício 5 - Temperaturas Anuais**  
-- [ ] `Atv5_TemperaturasMensais.java`  
+- [x] `Atv5_TemperaturasMensais.java`  
 Identifica maior e menor temperatura com meses por extenso  
 
 ### **Exercício 6 - Loja de Artesanato**  
