@@ -35,7 +35,7 @@ Calcula notas de alunos e porcentagem de aprovação com base em gabarito
 Identifica maior e menor temperatura com meses por extenso  
 
 ### **Exercício 6 - Loja de Artesanato**  
-- [ ] `Atv6_CalculoComissao.java`  
+- [X] `Atv6_CalculoComissao.java`  
 Gera relatório de vendas e calcula comissão de vendedor  
 
 ### **Exercício 7 - Analisador de Números**  
