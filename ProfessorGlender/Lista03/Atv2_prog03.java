@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Atv2_prog03 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num1 = 0;
+        int num1;
 
         System.out.println("\n=== Digite o número a ser calculado o valor fatorial: ===");
         num1 = sc.nextInt();
