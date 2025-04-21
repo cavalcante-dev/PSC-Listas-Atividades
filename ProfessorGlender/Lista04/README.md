@@ -70,7 +70,7 @@ Contribuições são bem-vindas! Se encontrar:
 
 - 🧩 Novas funcionalidades interessantes
 
-Siga estes passos:
+### Siga estes passos:
 1. Faça um fork do projeto
 2. Crie uma branch: git checkout -b melhoria/nome-da-sua-ideia
 3. Envie um Pull Request
