@@ -39,11 +39,11 @@ Identifica maior e menor temperatura com meses por extenso
 Gera relatório de vendas e calcula comissão de vendedor  
 
 ### **Exercício 7 - Analisador de Números**  
-- [ ] `Atv7_AnaliseParesImpares.java`  
+- [x] `Atv7_AnaliseParesImpares.java`  
 Separa números pares/ímpares e calcula estatísticas  
 
 ### **Exercício 8 - Vendas Anuais**  
-- [ ] `Atv8_ControleVendas.java`  
+- [x] `Atv8_ControleVendas.java`  
 Processa matriz de vendas mensais/semanais e gera relatórios  
 
 ---
