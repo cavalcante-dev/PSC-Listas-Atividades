@@ -7,7 +7,7 @@ public class Atv3_Contador {
             if (contador > 300 && contador < 400) {
                 System.out.println(contador);
                 contador += 3;
-                System.out.println("Teste Verdadeiro");        
+                //System.out.println("Teste Verdadeiro");        
             } else {
                 System.out.println(contador);
                 contador += 5;
