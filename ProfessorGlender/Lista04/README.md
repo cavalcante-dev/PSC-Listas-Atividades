@@ -61,6 +61,14 @@ Processa matriz de vendas mensais/semanais e gera relatórios
 
 --- 
 
+## ⚙️ Como Usar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/cavalcante-dev/PSC-Listas-Atividades.git
+2. Navegue até a pasta da lista desejada e explore os arquivos.
+
+---
+
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Se encontrar:
 
@@ -79,4 +87,4 @@ Feito com ☕ por [cavalcante-dev]
 
 📧 Contato: leandrocavalcante2504@gmail.com
 
-🔗 LinkedIn: [Leandro Cavlcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)
+🔗 LinkedIn: [Leandro Cavalcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)

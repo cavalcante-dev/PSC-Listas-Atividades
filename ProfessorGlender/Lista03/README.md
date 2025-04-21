@@ -35,24 +35,30 @@ Durante esses exercícios, pratiquei:
 
 ---
 
-## 🛠️ Como Executar os Códigos
-
-1. **Clone o repositório:**  
+## ⚙️ Como Usar
+1. Clone o repositório:
    ```bash
-   git clone https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista03
+   git clone https://github.com/cavalcante-dev/PSC-Listas-Atividades.git
+2. Navegue até a pasta da lista desejada e explore os arquivos.
 
 ---
 
-## 💡 Nota para Colegas Estudantes
-Tente resolver sozinho primeiro! Minhas soluções são apenas uma referência.
+## 🤝 Contribuições
+Contribuições são bem-vindas! Se encontrar:
 
-Sinta-se à vontade para:
+- 🐛 Erros de lógica
 
-🔄 Sugerir melhorias nos códigos
-🐛 Reportar erros ou otimizações
+- 📈 Oportunidades de otimização
 
----
+- 🧩 Novas funcionalidades interessantes
 
-Feito com ☕ por cavalcante-dev - Estudante de Programação em constante evolução!
+### Siga estes passos:
+1. Faça um fork do projeto
+2. Crie uma branch: git checkout -b melhoria/nome-da-sua-ideia
+3. Envie um Pull Request
 
-📫 Contato: leandrocavalcante2504@gmail.com
+Feito com ☕ por [cavalcante-dev] 
+
+📧 Contato: leandrocavalcante2504@gmail.com
+
+🔗 LinkedIn: [Leandro Cavalcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)

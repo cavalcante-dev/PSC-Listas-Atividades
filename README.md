@@ -48,4 +48,4 @@ Feito com ☕ por [cavalcante-dev]
 
 📧 Contato: leandrocavalcante2504@gmail.com
 
-🔗 LinkedIn: [Leandro Cavlcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)
+🔗 LinkedIn: [Leandro Cavalcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)
