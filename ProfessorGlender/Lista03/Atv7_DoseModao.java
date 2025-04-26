@@ -6,14 +6,14 @@ public class Atv7_DoseModao {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        int dose, simNao = 0, adicionalDose = 0;
-        double conta, dezPorCento = 10.0 / 100.0, totalConta, finalConta;
+        int simNao = 0, adicionalDose = 0;
+        double dose, conta, dezPorCento = 10.0 / 100.0, totalConta, finalConta;
 
         System.out.println("\n=== Digite o valor da conta: ===");
         conta = sc.nextDouble();
 
         System.out.println("=== Digite o valor da dose: ===");
-        dose = sc.nextInt();
+        dose = sc.nextDouble();
 
         while (simNao != 2) {
                 

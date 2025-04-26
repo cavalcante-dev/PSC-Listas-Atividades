@@ -2,10 +2,7 @@
 
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)
 <<<<<<< HEAD
-[![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista04)
-=======
-[![Status](https://img.shields.io/badge/Status-Em_Andamento-yellow)](https://github.com/seu-usuario/arrays-java-atividades)
->>>>>>> 613b189e68d7c0b67b93756b94f0535923296ae3
+[![Concluída](https://img.shields.io/badge/Concluída-brightgreen)](https://github.com/cavalcante-dev/PSC-Listas-Atividades/tree/main/ProfessorGlender/Lista03)
 
 👋 Olá! Sou estudante de programação e este repositório contém **minhas soluções** para a Lista 04 de Vetores e Matrizes da disciplina de Programação de Soluções Computacionais.  
 Todos os códigos foram desenvolvidos por mim como parte do meu aprendizado prático em Java! 🚀
@@ -61,6 +58,14 @@ Processa matriz de vendas mensais/semanais e gera relatórios
 
 --- 
 
+## ⚙️ Como Usar
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/cavalcante-dev/PSC-Listas-Atividades.git
+2. Navegue até a pasta da lista desejada e explore os arquivos.
+
+---
+
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Se encontrar:
 
@@ -70,7 +75,7 @@ Contribuições são bem-vindas! Se encontrar:
 
 - 🧩 Novas funcionalidades interessantes
 
-Siga estes passos:
+### Siga estes passos:
 1. Faça um fork do projeto
 2. Crie uma branch: git checkout -b melhoria/nome-da-sua-ideia
 3. Envie um Pull Request
@@ -79,4 +84,4 @@ Feito com ☕ por [cavalcante-dev]
 
 📧 Contato: leandrocavalcante2504@gmail.com
 
-🔗 LinkedIn: [Leandro Cavlcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)
+🔗 LinkedIn: [Leandro Cavalcante](https://www.linkedin.com/in/leandro-cavalcante-13a63521a/)
