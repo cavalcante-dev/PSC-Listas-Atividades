@@ -8,6 +8,8 @@ public class Atv5_TemperaturasMensais {
         String [] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
         int [] temperatura = new int[12];
 
+        int [] arr = {1,2,3};
+
         System.out.println("\n=== Inisira o ano para iniciar a verificação: ===");
         int ano = sc.nextInt();
 

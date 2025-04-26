@@ -5,6 +5,7 @@ public class Atv8_ControleVendas {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+
         String [] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
         int [][] vendas = new int[12][4];
         int [] somaMes = new int[12];
@@ -17,10 +18,13 @@ public class Atv8_ControleVendas {
                 System.out.print("> Valor de vendas da " + (j+1) + "º semana do mês: ");
                 vendas[i][j] = sc.nextInt();
             }
+
+            somaMes[i] = 0;
             for (int j = 0; j < vendas[i].length; j++) {
                 somaMes[i] += vendas[i][j];
             }
-            System.out.println("\n> Soma do mês: " + somaMes[i]);
+
+            System.out.println("\n> Soma do mês de " + meses[i] + ": " + somaMes[i]);
         }
 
         for (int i = 0; i < somaMes.length; i++) {
