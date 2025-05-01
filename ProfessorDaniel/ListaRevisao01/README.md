@@ -30,7 +30,7 @@ Exercícios práticos de Java para consolidar conceitos de estruturas condiciona
 - [X] `Atv4_JogoPPT.java`  
     Simulação simplificada do jogo contra o computador.
 5. **Verificação de palíndromo**
-- [X] `Atv5_Palidromo.java`  
+- [X] `Atv5_Palindromo.java`  
     Checa se uma string é igual quando lida de trás para frente.
 6. **Identificação do maior número** 
 - [X] `Atv6_MaiorNum.java` 

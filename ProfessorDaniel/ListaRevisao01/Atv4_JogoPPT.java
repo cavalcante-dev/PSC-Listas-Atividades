@@ -22,7 +22,7 @@ public class Atv4_JogoPPT {
 
             System.out.println("""
 
-                === ESOLHA SUA JOGADA ===
+                === ESCOLHA SUA JOGADA ===
                 1. PEDRA
                 2. PAPEL
                 3. TESOURA
@@ -36,7 +36,7 @@ public class Atv4_JogoPPT {
                         System.out.println("\n=== SEU PAMONHA SÃO SÓ 4 OPÇÕES - TENTE NOVAMENTE ===\n");
                         System.out.println("""
 
-                            === ESOLHA SUA JOGADA ===
+                            === ESCOLHA SUA JOGADA ===
                             1. PEDRA
                             2. PAPEL
                             3. TESOURA
