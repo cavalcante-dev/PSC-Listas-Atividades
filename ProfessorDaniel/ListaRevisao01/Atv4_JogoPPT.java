@@ -99,5 +99,7 @@ public class Atv4_JogoPPT {
             System.out.println("=== EMPATE - TODO MUNDO SAIU FELIZ ===\n");
         }
 
+        sc.close();
+
     }
 }
