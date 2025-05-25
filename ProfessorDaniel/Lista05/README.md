@@ -1,5 +1,5 @@
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue)](LICENSE)
-[![Concluída](https://img.shields.io/badge/Concluída-brightgreen)]
+![Concluída](https://img.shields.io/badge/Concluída-brightgreen)
 
 👋 Olá! Sou estudante de programação e este repositório contém **minhas soluções** para a Lista 05 de Funções Java da disciplina de Programação de Soluções Computacionais.  
 Todos os códigos foram desenvolvidos por mim como parte do meu aprendizado prático em Java! 🚀
