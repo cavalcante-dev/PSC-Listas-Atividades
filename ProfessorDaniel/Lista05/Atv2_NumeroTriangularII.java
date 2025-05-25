@@ -2,7 +2,7 @@ package ProfessorDaniel.Lista05;
 
 import java.util.Scanner;
 
-public class NumeroTriangularII {
+public class Atv2_NumeroTriangularII {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -11,18 +11,20 @@ public class NumeroTriangularII {
         System.out.print("> Digite um número: ");
         valor = sc.nextInt();
 
-        for (int i = 1; i <= valor; i++) {
-            triangulacao(i);
-            System.out.println("\n");
-        }
+        triangulacao(valor);
 
     }
 
     public static void triangulacao(int num) {
-        int impresso = 1;
+
         for (int i = 1; i <= num; i++) {
-            System.out.print(impresso + "");
-            impresso++;
+            int impresso = 1;
+            for (int j = 1; j <= i; j++) {
+                System.out.print(impresso + "");
+                impresso++;
+            }
+            System.out.println("\n");
         }
+
     } 
 }
