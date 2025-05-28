@@ -45,4 +45,5 @@ public class Suspeito {
     public void setParcelaCulpa(int parcelaCulpa) {
         this.parcelaCulpa = parcelaCulpa;
     }
+
 }

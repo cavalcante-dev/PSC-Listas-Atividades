@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+        Tribunal tribunalValidacao = new Tribunal();
         List<Suspeito> listaSuspeitos = new ArrayList<>();
         String nome;
         int resposta;
@@ -32,58 +33,68 @@ public class Main {
             listaSuspeitos.add(suspeito);
 
             System.out.print("""
-                    > Telefonou para a vítima? 
+                    \n> Telefonou para a vítima?
                     1. Sim
                     2. Não
                     Resposta:\s""");
             resposta = sc.nextInt();
+            resposta = tribunalValidacao.validarResposta(resposta);
             suspeito.setResposta(resposta);
 
             System.out.print("""
-                    > Esteve no local do crime?
+                    \n> Esteve no local do crime?
                     1. Sim
                     2. Não
                     Resposta:\s""");
             resposta = sc.nextInt();
+            resposta = tribunalValidacao.validarResposta(resposta);
             suspeito.setResposta(resposta);
 
             System.out.print("""
-                    > Mora perto da vítima?
+                    \n> Mora perto da vítima?
                     1. Sim
                     2. Não
                     Resposta:\s""");
             resposta = sc.nextInt();
+            resposta = tribunalValidacao.validarResposta(resposta);
             suspeito.setResposta(resposta);
 
             System.out.print("""
-                    > Devia para a vítima?
+                    \n> Devia para a vítima?
                     1. Sim
                     2. Não
                     Resposta:\s""");
             resposta = sc.nextInt();
+            resposta = tribunalValidacao.validarResposta(resposta);
             suspeito.setResposta(resposta);
 
             System.out.print("""
-                    > Já trabalhou com a vítima? 
+                    \n> Já trabalhou com a vítima?
                     1. Sim
                     2. Não
                     Resposta:\s""");
             resposta = sc.nextInt();
+            resposta = tribunalValidacao.validarResposta(resposta);
             suspeito.setResposta(resposta);
 
             System.out.print("""
-                    > Finalizar interrogatorios? 
+                    \n> Finalizar interrogatorios?
                     1. Sim
                     2. Não
                     Resposta:\s""");
             finalizar = sc.nextInt();
+            finalizar = tribunalValidacao.validarResposta(finalizar);
 
         } while (finalizar != 1);
 
-        for (Suspeito s : listaSuspeitos) {
-            System.out.println(s.getNome());
-            System.out.println(s.getResposta());
-        }
+        Tribunal tribunal = new Tribunal(listaSuspeitos);
+        tribunal.definirCulpa();
+
+        System.out.println("\n=====================================================\n");
+
+        tribunal.definirJulgamento();
+
+        sc.close();
 
     }
 }
