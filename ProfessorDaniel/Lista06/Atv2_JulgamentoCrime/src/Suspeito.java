@@ -15,22 +15,27 @@ public class Suspeito {
     }
 
     public String getCulpa() {
+
         return culpa;
     }
 
     public void setCulpa(String culpa) {
+
         this.culpa = culpa;
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public List<Integer> getResposta() {
+
         return new ArrayList<>(resposta);
     }
 

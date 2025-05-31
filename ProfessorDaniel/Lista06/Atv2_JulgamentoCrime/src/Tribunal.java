@@ -6,10 +6,13 @@ public class Tribunal extends Main{
     private List<Suspeito> listaSuspeitos;
 
     public Tribunal() {
+
         this.listaSuspeitos = null;
     }
 
     public Tribunal(List<Suspeito> listaSuspeitos) {
+
+        ppppppppppppppppppppppppppppp
         this.listaSuspeitos = listaSuspeitos;
     }
 
