@@ -10,14 +10,21 @@ public class Main {
         double valor = 0;
 
         System.out.println("""
-                ==== Calculo de Valores ====
+                ========== Calculo de Valores ==========
+                
                 > Digite os valores desejados para os seguintes calculos: 
+                   
+                   - Quantidade de valores inseridos. 
+                   - Listagem dos valores informados.
+                   - Listagem inversa dos valores informados.
                    - Calculo de todos os valores.
                    - Média dos valores.
                    - Valores acima da média.
                    - Valores abaixo de sete. 
-                > Digite -1 para finalizar inserção de valores.
-                """);
+                   
+                > Digite -1 para finalizar inserção de valores.""");
+
+        System.out.println("\n---------------------------------------------\n");
 
         do {
 
@@ -28,17 +35,23 @@ public class Main {
 
         } while(valor != -1);
 
-        double somaValores = valores.somaValores();
+        System.out.println("\n========== RESULTADOS ==========\n");
 
-        System.out.println(somaValores);
+        System.out.println("> Número de valoes inseridos: " + valores.getlistaValores().size());
 
-        double media = valores.calcularMedia();
+        System.out.println("> Valores na ordem que foram inseridos: " + valores.getlistaValores());
 
-        System.out.println(media);
+        System.out.println("> Valores na ordem inversa que foram inseridos: " + valores.inverterValores());
 
-        List<Double> valoresAcimaMedia = new ArrayList<>(valores.getAcimaMedia());
+        System.out.println("> Soma total dos valores: " + valores.somaValores());
 
-        System.out.println(valoresAcimaMedia);
+        System.out.println("> Média dos valores: " + valores.calcularMedia());
+
+        System.out.println("> Valores maiores que a média: " + valores.getAcimaMedia());
+
+        System.out.println("> Valores menores que sete: " + valores.getMenorSete());
+
+        System.out.println("\n===== Programa encerrado. Tenha um bom dia! =====\n");
 
     }
 }
