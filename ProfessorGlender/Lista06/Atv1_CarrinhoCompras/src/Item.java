@@ -1,21 +1,19 @@
-public class Item {
+import java.util.List;
 
-    private Produto produto;
+public class Item extends Produto {
+
     private int quantidade;
     private double valorTotal;
 
-    public Item(Produto produto, int quantidade) {
-        this.produto = produto;
-        this.quantidade = quantidade;
-        valorTotal = quantidade * produto.getPreco();
+    public Item(String nome, String codigo, double preco) {
+        super(nome, codigo, preco);
     }
 
-    public Produto getProduto() {
-        return produto;
+    public void realizarCompra(String codigo, int quantidade) {
+
     }
 
-    public void setProduto(Produto produto) {
-        this.produto = produto;
+    public void comprarItens(String codigo, int quantidade) {
     }
 
     public int getQuantidade() {
