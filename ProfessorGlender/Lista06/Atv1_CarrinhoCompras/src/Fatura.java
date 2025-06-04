@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Fatura {
@@ -5,19 +6,15 @@ public class Fatura {
     private List<Item> listaItens;
     private double valorFatura;
 
-    public Fatura() {
+    public Fatura(List<Item> listaItens) {
+        this.listaItens = listaItens;
         this.valorFatura = 0;
     }
 
-    public void adicionarItem(Item item) {
-        this.listaItens.add(item);
-    }
-
-    public double calcularFatura() {
+    public void calcularFatura() {
         for (Item item : listaItens) {
             valorFatura += item.getValorTotal();
         }
-        return valorFatura;
     }
 
     public List<Item> getListaItens() {

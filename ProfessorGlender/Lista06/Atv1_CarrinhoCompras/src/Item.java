@@ -1,19 +1,24 @@
+import java.util.ArrayList;
 import java.util.List;
 
-public class Item extends Produto {
+public class Item {
 
     private int quantidade;
     private double valorTotal;
+    private int codigo;
 
-    public Item(String nome, String codigo, double preco) {
-        super(nome, codigo, preco);
+    public Item(int codigo) {
+        this.codigo = codigo;
+        this.valorTotal = 0;
     }
 
-    public void realizarCompra(String codigo, int quantidade) {
-
-    }
-
-    public void comprarItens(String codigo, int quantidade) {
+    public void realizarCompra(int codigo, int quantidade) {
+        for (Produto produto : Main.listaProdutos) {
+            if (produto.getCodigo() == codigo) {
+                this.quantidade += quantidade;
+                this.valorTotal = this.quantidade * produto.getPreco();
+            }
+        }
     }
 
     public int getQuantidade() {
@@ -30,5 +35,13 @@ public class Item extends Produto {
 
     public void setValorTotal(double valorTotal) {
         this.valorTotal = valorTotal;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
     }
 }
