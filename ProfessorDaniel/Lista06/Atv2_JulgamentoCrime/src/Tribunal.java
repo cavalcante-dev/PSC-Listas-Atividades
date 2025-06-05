@@ -11,11 +11,8 @@ public class Tribunal extends Main{
     }
 
     public Tribunal(List<Suspeito> listaSuspeitos) {
-
-        ppppppppppppppppppppppppppppp
         this.listaSuspeitos = listaSuspeitos;
     }
-
 
     public void printRespostas() {
 
